@@ -65,6 +65,13 @@
   :axes (65650 :DPAD-H 65651 :DPAD-V 65584 :L-H 65585 :L-V 65589 :R-H 65590
          :R-V 65586 :THROTTLE))
 
+(define-device-mapping (:IOKIT 1133 49795)
+  :name "WingMan Force 3D"
+  :buttons (589830 :A 589831 :B 589825 :X 589826 :L1 589827 :L3 589828 :R1
+                   589829 :R3)
+  :axes (65584 :L-H 65585 :L-V 65589 :RUDDER 65590 :THROTTLE
+               65650 :DPAD-H 65651 :DPAD-V))
+
 (define-device-mapping (:IOKIT 1356 616)
   :name "Sony Dual Shock 3"
   :buttons (589839 :A 589838 :B 589840 :X 589837 :Y 589835 :L1 589833 :L2
